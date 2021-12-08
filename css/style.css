@@ -26,6 +26,22 @@ body {
     box-sizing: border-box;
     border-radius: 10px;
 }
+@media (max-width: 600px) {
+    #inner-body {
+        display: block;
+    }
+    #left-side, #right-side {
+        width: 100%;
+    }
+    div #left-side > div {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    div #jeanette{
+        margin-right: 0px;
+    }
+
+}
 h1 {
     font-size: 15px;
     margin-top: 0px;
