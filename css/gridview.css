@@ -15,11 +15,11 @@ body {
     float: left;
     padding: 15px;
     padding-top: 0;
+    padding-bottom: 0;
     border-radius: 10px;
 }
 .inner-body{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
 }
 img{
     float: left;
@@ -45,29 +45,41 @@ h1{
 h2{
     font-size: 18px;
 }
+.left-side{
+    padding: 0;
+}
 .left-side > div {
     height: 250px;
-    margin-left: 25px;
-    margin-bottom: 25px;
+    margin-right: 34px;
 }
 .daniel{
     background-color: #733FC8;
     color: white;
+    margin-bottom: 25px;
 }
 .jonathan{
     background-color: #49556B;
     color: white;
+    margin-bottom: 25px;
 }
 .jeanette{
     background-color: #FFFFFF;
+    margin-bottom: 0;
 }
 .patrick{
     background-color: #18202D;
     color: white;
 }
 .right-side{
+    background-color: chocolate;
+
+    padding: 0;
+}
+.kira{
     background-color: #FFFFFF;
-    padding-left: 0px;
+    height: 525px;
+    padding-left: 25px;
+    margin-left: 0;
 }
 .col-1{width: 8.33%;}
 .col-2{width: 16.66%;}
