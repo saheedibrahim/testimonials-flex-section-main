@@ -1,28 +1,77 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: #EDF2F8;
+    display: flex;
+    justify-content: center;
+}
 .row::after{
     content: "";
-    clear: left;
-    display: block;
+    clear: both;
+    display: table;
 }
 [class*="col-"]{
     float: left;
     padding: 15px;
+    padding-top: 0;
+    border-radius: 10px;
 }
-.kira{
-    clear: right;
+.inner-body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img{
+    float: left;
+    border-radius: 50%;
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+p{
+    opacity: 0.4;
+    font-size: 12px;
+}
+.verified-graduate{
+    margin-top: 0;
+    font-size: 13px;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+h2{
+    font-size: 18px;
+}
+.left-side > div {
+    height: 250px;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
 .daniel{
-    background-color: blue;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    background-color: #733FC8;
+    color: white;
+}
+.jonathan{
+    background-color: #49556B;
+    color: white;
 }
 .jeanette{
-    margin-top: 0px;
+    background-color: #FFFFFF;
+}
+.patrick{
+    background-color: #18202D;
+    color: white;
+}
+.right-side{
+    background-color: #FFFFFF;
+    padding-left: 0px;
 }
 .col-1{width: 8.33%;}
 .col-2{width: 16.66%;}
+.col-3n5{width: 22%;}
 .col-3{width: 25%;}
 .col-4{width: 33.33%;}
 .col-5{width: 41.66%;}
@@ -30,6 +79,7 @@
 .col-7{width: 58.33%;}
 .col-8{width: 64.66%;}
 .col-9{width: 75%;}
+.col-9n5{width: 78%;}
 .col-10{width: 83.33%;}
 .col-11{width: 91.66%;}
 .col-12{width: 100%;}
