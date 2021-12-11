@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background-color: #EDF2F8;
     display: flex;
@@ -6,24 +9,22 @@ body {
 #inner-body {
     display: flex;
     width: 80%;
-    box-sizing: border-box;
     margin-top: 30px;
 }
 #left-side {
     display: flex;
     flex-wrap: wrap;
-    width: 76%;
-    box-sizing: border-box;
-    margin-right: 2%;
+    width: 75%;
+    margin-right: 1%;
 
 }
 #right-side {
     width: 22%;
+    margin-left: 0;
 }
 #left-side > div {
     padding: 30px;
     padding-bottom: 10px;
-    box-sizing: border-box;
     border-radius: 10px;
 }
 @media (max-width: 600px) {
@@ -74,20 +75,20 @@ h2 {
     background-position: 80% 0%;
     background-color: #733FC8;
     width: 64%;
-    margin-right: 3%;
+    margin-right: 4%;
     margin-bottom: 25px;
     color: white;
 }
 #jonathan{
     background-color: #49556B;
-    width: 33%;
+    width: 30%;
     margin-bottom: 25px;
     color: white;
 }
 #jeanette{
     background-color: #FFFFFF;
     width: 30%;
-    margin-right: 3%;
+    margin-right: 5%;
 }
 #patrick{
     background-color: #18202D;
@@ -96,6 +97,6 @@ h2 {
 }
 #kira{
     background-color: #FFFFFF;
-    padding: 30px;
+    padding: 27px;
     border-radius: 10px;
 }
