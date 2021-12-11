@@ -69,9 +69,9 @@ h2 {
     font-size: 18px;
 }
 #daniel{
-    background-image: url("/images/bg-pattern-quotation.svg");
+    background-image: url("../images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: 80% 0%;
     background-color: #733FC8;
     width: 64%;
     margin-right: 3%;
