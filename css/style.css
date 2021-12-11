@@ -21,7 +21,7 @@ body {
     width: 22%;
 }
 #left-side > div {
-    padding: 20px;
+    padding: 30px;
     padding-bottom: 10px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -66,7 +66,7 @@ img {
 }
 h2 {
     clear: left;
-    font-size: 18px;
+    font-size: 17px;
 }
 #daniel{
     background-image: url("../images/bg-pattern-quotation.svg");
@@ -86,12 +86,12 @@ h2 {
 }
 #jeanette{
     background-color: #FFFFFF;
-    width: 33%;
+    width: 30%;
     margin-right: 3%;
 }
 #patrick{
     background-color: #18202D;
-    width: 64%;
+    width: 62%;
     color: white;
 }
 #kira{
